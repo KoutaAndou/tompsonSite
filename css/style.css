@@ -22,3 +22,15 @@ body .topBtn{
 	margin: 30px;
     font-size: 40px;
 }
+
+.video{
+    display: flex;
+    justify-content: center;
+  }
+
+.youtube{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 60px;
+    background-color: aliceblue;
+  }
