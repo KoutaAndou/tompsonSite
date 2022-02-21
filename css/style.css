@@ -26,11 +26,43 @@ body .topBtn{
 .video{
     display: flex;
     justify-content: center;
-  }
+}
 
 .youtube{
     margin-top: 10px;
     margin-right: 10px;
     padding: 60px;
     background-color: aliceblue;
-  }
+}
+
+dt{
+    color:navy;
+    font-weight:bold;
+    padding:0 10px 0 0;
+    width:120px;
+    float:left;
+    margin-bottom:7px;
+}
+
+dd{
+    color:#333;
+    margin-bottom:7px;
+}
+
+dl::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+iframe .timeline-Header{
+    visibility:hidden;
+}
+
+.twitter{
+    float: right;
+}
+
+.sns{
+    display:inline;
+}
