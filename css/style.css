@@ -1,6 +1,11 @@
 body{
+    width:100%;
+    font-family: 'Noto Sans JP', sans-serif;
     background-color:#FFFFFF;
-    width: 75%;
+}
+
+body .width75{
+    width:75%;
     margin: auto;
 }
 
@@ -11,6 +16,7 @@ body .title{
 
 body .inline{
     text-align:center;
+    margin-top: 30px;
 }
 
 body .inline li {
@@ -19,22 +25,15 @@ body .inline li {
 
 body .topBtn{
 	width: 80px;
-	height: 50px;
-	padding: 20px;
-	margin: auto;
+	padding-left: 55px;
+    padding-right: 55px;
     font-size: 35px;
+    margin: 0
 }
 
 body .video{
     display: flex;
     float: left;
-}
-
-body .youtube{
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 60px;
-    background-color: aliceblue;
 }
 
 body .instagram{
@@ -70,4 +69,23 @@ dl::after {
 
 iframe .timeline-Header{
     visibility:hidden;
+}
+
+body .News{
+    width: 75%;
+    margin: auto;
+}
+
+body .profile {
+    width:53%;
+    float: left;
+}
+
+body .imgProfile img{
+    width: 44%;
+}
+
+body .youtubeVideo{
+    width: 75%;
+    margin: auto;
 }
