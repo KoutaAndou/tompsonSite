@@ -21,18 +21,56 @@ body .inline{
 
 body .inline li {
 	display: inline;
+    float: left;
+    margin-left: 150px;
 }
 
 body .topBtn{
-	width: 80px;
-	padding-left: 55px;
+    width: 80px;
+    padding-left: 55px;
     padding-right: 55px;
     font-size: 35px;
-    margin: 0
+    margin: auto;
+}
+
+body .topBtn a{
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    z-index:0;
+    text-decoration:none;
+}
+
+body .topBtn a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    display: block;
+    background: #6bb6ff;
+    transition: .3s;
+    left:0;
+}
+
+body .topBtn a:hover{
+    color: #FFF;
+}
+
+body .topBtn a:hover:before{
+    width: 100%;
+    z-index: -1;
 }
 
 body .video{
-    display: flex;
     float: left;
 }
 
@@ -44,7 +82,8 @@ body .sns{
 }
 
 body .indexNews{
-    margin-top: 100px;
+    margin-top: 20px;
+    float: left;
 }
 
 dt{
@@ -59,6 +98,7 @@ dt{
 dd{
     color:#333;
     margin-bottom:7px;
+    width:1050px;
 }
 
 dl::after {
@@ -85,7 +125,7 @@ body .imgProfile img{
     width: 44%;
 }
 
-body .youtubeVideo{
-    width: 75%;
-    margin: auto;
+body .shopping-coming{
+    text-align: center;
+    font-size: 100px;
 }
