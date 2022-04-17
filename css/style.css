@@ -1,131 +1,145 @@
-body{
-    width:100%;
+body {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
-body .width75{
-    width:75%;
+body .width75 {
+    width: 75%;
     margin: auto;
 }
 
-body .title{
+body .title {
     text-align: center;
     font-size: 30px;
 }
 
-body .inline{
-    text-align:center;
-    margin-top: 30px;
+body .title a{
+    text-decoration: none;
 }
 
-body .inline li {
-	display: inline;
-    float: left;
-    margin-left: 150px;
+body .topBtn {
+    text-align: center;
 }
 
-body .topBtn{
-    width: 80px;
-    padding-left: 55px;
-    padding-right: 55px;
-    font-size: 35px;
-    margin: auto;
+body .topBtn li {
+    list-style: none;
+    display: inline;
+    flex: auto;
 }
 
-body .topBtn a{
+body .topBtn ul {
+    display: flex;
+    text-align: center;
+}
+
+body .topbtn p {
+    text-align: center;
+}
+
+body .topBtn a {
     background: #eee;
+    border-radius: 3px;
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    max-width: 240px;
+    max-width: 280px;
     padding: 10px 25px;
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 500;
-    z-index:0;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-body .topBtn a:before{
+body .topBtn a:after {
     content: "";
     position: absolute;
-    top: 0;
+    top: 50%;
     bottom: 0;
-    width: 0;
-    display: block;
-    background: #6bb6ff;
-    transition: .3s;
-    left:0;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    height: 6px;
 }
 
-body .topBtn a:hover{
+body .topBtn a:hover {
+    background: #6bb6ff;
     color: #FFF;
 }
 
-body .topBtn a:hover:before{
-    width: 100%;
-    z-index: -1;
-}
-
-body .video{
+body .video {
     float: left;
 }
 
-body .instagram{
+body .instagram {
     float: right;
 }
-body .sns{
-    display:inline;
+
+body .indexNews {
+    margin-top: 20px;
 }
 
-body .indexNews{
-    margin-top: 20px;
+body .topNews {
     float: left;
 }
 
-dt{
-    color:navy;
-    font-weight:bold;
-    padding:0 10px 0 0;
-    width:120px;
-    float:left;
-    margin-bottom:7px;
+body .topNews ul {
+    width: 1050px;
+    padding: 0
 }
 
-dd{
-    color:#333;
-    margin-bottom:7px;
-    width:1050px;
+body .topNews li {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
 }
 
-dl::after {
-    content: '';
+body .topNews a {
+    text-decoration: none;
     display: block;
-    clear: both;
+    padding: 10px 0;
 }
 
-iframe .timeline-Header{
-    visibility:hidden;
+body .topNews a:hover {
+    background-color: #ccc;
 }
 
-body .News{
+body .topNews span {
+    color: #737373;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body .topNews p {
+    color: #131313;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+iframe .timeline-Header {
+    visibility: hidden;
+}
+
+body .News {
     width: 75%;
     margin: auto;
 }
 
 body .profile {
-    width:53%;
+    width: 53%;
     float: left;
 }
 
-body .imgProfile img{
+body .imgProfile img {
     width: 44%;
 }
 
-body .shopping-coming{
+body .shopping-coming {
     text-align: center;
     font-size: 100px;
 }
