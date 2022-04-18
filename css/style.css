@@ -74,16 +74,24 @@ body .video {
     float: left;
 }
 
+body .video h2{
+    margin-bottom: 16px;
+}
+
+body .instagram h2{
+    margin-bottom: 16px;
+}
+
 body .instagram {
     float: right;
 }
 
-body .indexNews {
-    margin-top: 20px;
-}
-
 body .topNews {
     float: left;
+}
+
+body .topNews h2{
+    margin-top: 16px;
 }
 
 body .topNews ul {
@@ -126,20 +134,71 @@ iframe .timeline-Header {
 }
 
 body .News {
-    width: 75%;
+    width:  75%;
     margin: auto;
+}
+
+body .News ul {
+    width: 100%;
+    padding: 0
+}
+
+body .News li {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+
+body .News a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+body .News a:hover {
+    background-color: #ccc;
+}
+
+body .News span {
+    color: #737373;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body .News p {
+    color: #131313;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+body .News h2{
+    float: left;
 }
 
 body .profile {
     width: 53%;
+}
+
+body .profile h2{
     float: left;
 }
 
-body .imgProfile img {
+body .profile_img,
+.profile{
+    display: inline-block;
+}
+
+body .profile_img img{
     width: 44%;
 }
 
 body .shopping-coming {
     text-align: center;
     font-size: 100px;
+}
+
+body h2{
+    margin: 0;
 }
