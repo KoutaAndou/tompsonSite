@@ -29,7 +29,7 @@ body .topBtn li {
 
 body .topBtn ul {
     display: flex;
-    text-align: center;
+    justify-content: space-evenly;
 }
 
 body .topbtn p {
@@ -181,13 +181,12 @@ body .profile {
     width: 53%;
 }
 
-body .profile h2{
+body .profile {
     float: left;
 }
 
-body .profile_img,
-.profile{
-    display: inline-block;
+body .profile_img img{
+    float:right;
 }
 
 body .profile_img img{
