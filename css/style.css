@@ -194,11 +194,12 @@ body .profile_img img{
     width: 44%;
 }
 
-body .shopping-coming {
-    text-align: center;
-    font-size: 100px;
-}
-
 body h2{
     margin: 0;
+}
+
+body .googleForm{
+    /* widthをformの大きさと一緒にすれば中央ぞろえ */
+    width: 640px;
+    margin: 0 auto;
 }
